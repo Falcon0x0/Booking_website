@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <title>Just_Set_Go</title>
+  </head>
+  <body>
+    <div class="di5">
+      <img src="logo.png" alt="" class="lg" />
+      <ul class="uno">
+        <li>Home</li>
+        <li>Bookings</li>
+        <li>AI Trip Planner</li>
+        <li>Wishlist</li>
+      </ul>
+        <img src="human2.png" alt="hello" class="human" />
+    </div>
+    <div class="sec1">
+      <div class="div1">
+        <p class="head1">
+          <b>Your Ultimate Travel Companion for <br />Seamless Adventures</b>
+        </p>
+      </div>
+      <div class="menu-wrapper">
+        <div class="menu-container">
+          <div class="menu-item">
+            <i class="fa-solid fa-plane"></i>
+            <span>Flight</span>
+          </div>
+          <div class="menu-item">
+            <i class="fa-solid fa-suitcase"></i>
+            <span>Holiday Package</span>
+          </div>
+          <div class="menu-item">
+            <i class="fa-solid fa-train"></i>
+            <span>Trains</span>
+          </div>
+          <div class="menu-item">
+            <i class="fa-solid fa-map"></i>
+            <span>AI Trip Planner</span>
+          </div>
+          <div class="menu-item">
+            <i class="fa-solid fa-bus"></i>
+            <span>Bus</span>
+          </div>
+          <div class="menu-item">
+            <i class="fa-solid fa-car"></i>
+            <span>Cabs</span>
+          </div>
+          <div class="menu-item">
+            <i class="fa-solid fa-hotel"></i>
+            <span>Hotels</span>
+          </div>
+        </div>
+      </div>
+      <div class="booking-container">
+        <br /><br /><br />
+        <div class="trip-options">
+          <input type="radio" id="oneway" name="trip" checked />
+          <label for="oneway">One Way</label>
+          <input type="radio" id="roundtrip" name="trip" />
+          <label for="roundtrip">One Way</label>
+          <input type="radio" id="multicity" name="trip" />
+          <label for="multicity">Multi City</label>
+        </div>
+
+        <div class="booking-details">
+          <div class="section">
+            <div class="location">
+              <span>From</span>
+              <h2>Delhi</h2>
+              <p>DEL, Delhi Airport India</p>
+            </div>
+            <div class="divider"></div>
+            <div class="location">
+              <span>To</span>
+              <h2>Mumbai</h2>
+              <p>BOM, Chhatrapati Shivaji Maharaj Int..</p>
+            </div>
+            <div class="divider"></div>
+            <div class="date-info">
+              <span>Departure</span>
+              <h2>19 Jul'24</h2>
+              <p>Friday</p>
+            </div>
+            <div class="divider"></div>
+            <div class="date-info">
+              <span>Return</span>
+              <h2>26 Jul'24</h2>
+              <p>Thursday</p>
+            </div>
+            <div class="divider"></div>
+            <div class="traveller-class">
+              <span>Traveller & Class</span>
+              <h2>1 Traveller</h2>
+              <p>Economy/Premium Economy</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="special-fare">
+          <span class="fare-title">Select a special fare</span>
+          <div class="fare-options">
+            <div class="fare-item">
+              <input type="radio" id="regular" name="fare" checked />
+              <label for="regular">Regular</label>
+              <span>Regular fares</span>
+            </div>
+            <div class="divider"></div>
+            <div class="fare-item">
+              <input type="radio" id="doctor" name="fare" />
+              <label for="doctor">Doctor and Nurses</label>
+              <span>up to ₹600 off</span>
+            </div>
+            <div class="divider"></div>
+            <div class="fare-item">
+              <input type="radio" id="armed" name="fare" />
+              <label for="armed">Armed Forces</label>
+              <span>up to ₹600 off</span>
+            </div>
+            <div class="divider"></div>
+            <div class="fare-item">
+              <input type="radio" id="student" name="fare" />
+              <label for="student">Student</label>
+              <span>Extra discounts/baggage</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <section id="top-picks" class="top-picks">
+      <h2>Top Picks for you</h2>
+      <div class="scroll-container">
+        <!-- Card 1: Rishikesh -->
+        <div class="card">
+          <img src="pic1.jpg" alt="Rishikesh" />
+          <h3>Rishikesh,Uttarakhand</h3>
+          <p class="rating">
+            Rating: 4/5 ⭐⭐⭐⭐☆<span class="heart">♡&nbsp;⇪</span>
+          </p>
+
+          <div class="info-wrapper">
+            <div class="info-box">
+              <div class="icon-circle">📅</div>
+              <div class="info-text">
+                <span>Duration</span>
+                <span>3 Nights</span>
+              </div>
+            </div>
+          
+            <div class="info-box">
+              <div class="icon-circle">👥</div>
+              <div class="info-text">
+                <span>Per Day</span>
+                <span>Pay per person</span>
+              </div>
+            </div>
+          </div>
+          <div class="price">
+            <p>From <strong>₹15,999</strong></p>
+            <p>Incl. taxes & flights</p>
+          </div>
+          <button class="top-pick-btn">Book Now</button>
+        </div>
+
+        <!-- Card 2: Leh-Ladakh -->
+        <div class="card">
+          <img src="pic2.jpg" alt="Leh-Ladakh" />
+          <h3>Leh-Ladakh, Jammu & Kashmir</h3>
+          <p class="rating">
+            Rating: 4/5 ⭐⭐⭐⭐☆<span class="heart">♡&nbsp;⇪</span>
+          </p>
+          <div class="info-wrapper">
+            <div class="info-box">
+              <div class="icon-circle">📅</div>
+              <div class="info-text">
+                <span>Duration</span>
+                <span>3 Nights</span>
+              </div>
+            </div>
+          
+            <div class="info-box">
+              <div class="icon-circle">👥</div>
+              <div class="info-text">
+                <span>Per Day</span>
+                <span>Pay per person</span>
+              </div>
+            </div>
+          </div>
+          <div class="price">
+            <p>From <strong>₹15,999</strong></p>
+            <p>Incl. taxes & flights</p>
+          </div>
+          <button class="top-pick-btn">Book Now</button>
+        </div>
+
+        <!-- Card 3: Manali -->
+        <div class="card">
+          <img src="pic3.jpg" alt="Manali" />
+          <h3>Manali, Himachal Pradesh</h3>
+          <p class="rating">
+            Rating: 4/5 ⭐⭐⭐⭐☆<span class="heart">♡&nbsp;⇪</span>
+          </p>
+          <div class="info-wrapper">
+            <div class="info-box">
+              <div class="icon-circle">📅</div>
+              <div class="info-text">
+                <span>Duration</span>
+                <span>3 Nights</span>
+              </div>
+            </div>
+          
+            <div class="info-box">
+              <div class="icon-circle">👥</div>
+              <div class="info-text">
+                <span>Per Day</span>
+                <span>Pay per person</span>
+              </div>
+            </div>
+          </div>
+          <div class="price">
+            <p>From <strong>₹15,999</strong></p>
+            <p>Incl. taxes & flights</p>
+          </div>
+          <button class="top-pick-btn">Book Now</button>
+        </div>
+
+        <!-- Card 4: Goa -->
+        <div class="card">
+          <img src="pic4.jpg" alt="Goa" />
+          <h3>Goa</h3>
+          <p class="rating">
+            Rating: 4/5 ⭐⭐⭐⭐☆<span class="heart">♡&nbsp;⇪</span>
+          </p>
+          <div class="info-wrapper">
+            <div class="info-box">
+              <div class="icon-circle">📅</div>
+              <div class="info-text">
+                <span>Duration</span>
+                <span>3 Nights</span>
+              </div>
+            </div>
+          
+            <div class="info-box">
+              <div class="icon-circle">👥</div>
+              <div class="info-text">
+                <span>Per Day</span>
+                <span>Pay per person</span>
+              </div>
+            </div>
+          </div>
+          <div class="price">
+            <p>From <strong>₹15,999</strong></p>
+            <p>Incl. taxes & flights</p>
+          </div>
+          <button class="top-pick-btn">Book Now</button>
+        </div>
+
+        <!-- Card 5: Auli -->
+        <div class="card">
+          <img src="pic5.jpg" alt="Auli" />
+          <h3>Auli, Uttarakhand</h3>
+          <p class="rating">
+            Rating: 4/5 ⭐⭐⭐⭐☆<span class="heart">♡&nbsp;⇪</span>
+          </p>
+          <div class="info-wrapper">
+            <div class="info-box">
+              <div class="icon-circle">📅</div>
+              <div class="info-text">
+                <span>Duration</span>
+                <span>3 Nights</span>
+              </div>
+            </div>
+          
+            <div class="info-box">
+              <div class="icon-circle">👥</div>
+              <div class="info-text">
+                <span>Per Day</span>
+                <span>Pay per person</span>
+              </div>
+            </div>
+          </div>
+          <div class="price">
+            <p>From <strong>₹15,999</strong></p>
+            <p>Incl. taxes & flights</p>
+          </div>
+          <button class="top-pick-btn">Book Now</button>
+        </div>
+      </div>
+    </section>
+    <div class="travel-section">
+      <h2 class="travel-title">Ultimate Travel Spots</h2>
+      <div class="travel-scroll-container">
+        <div class="travel-card pc1">
+          <span class="travel-rating"
+            >Blissful Bali <br />
+            ⭐ 4.7</span
+          >
+        </div>
+        <div class="travel-card pc2">
+          <span class="travel-rating"
+            >Majestic Kilimanjaro <br />
+            ⭐ 4.8</span
+          >
+        </div>
+        <div class="travel-card pc3">
+          <span class="travel-rating">
+            Glorious Great Barrier Reef <br />
+            ⭐ 4.9</span
+          >
+        </div>
+        <div class="travel-card pc4">
+          <span class="travel-rating"
+            >Heavenly Hawaii <br />
+            ⭐ 4.6</span
+          >
+        </div>
+        <div class="travel-card pc5">
+          <span class="travel-rating"
+            >Mystical Machu Picchu <br />
+            ⭐ 4.7</span
+          >
+        </div>
+        <div class="travel-card pc6">
+          <span class="travel-rating"
+            >Majestic Mount Everest <br />
+            ⭐ 4.7</span
+          >
+        </div>
+        <div class="travel-card pc7">
+          <span class="travel-rating"
+            >Spectacular Swiss Alps <br />
+            ⭐ 4.8</span
+          >
+        </div>
+        <div class="travel-card pc8">
+          <span class="travel-rating"
+            >Vibrant Barcelona <br />
+            ⭐ 4.6</span
+          >
+        </div>
+      </div>
+    </div>
+    <div class="gallery-section">
+      <h2 class="gallery-title">Gallery</h2>
+      <div class="gallery-scroll-container">
+        <div class="gallery-image p1"></div>
+        <div class="gallery-image p2"></div>
+        <div class="gallery-image p3"></div>
+        <div class="gallery-image p4"></div>
+        <div class="gallery-image p5"></div>
+        <div class="gallery-image p6"></div>
+        <div class="gallery-image p7"></div>
+        <div class="gallery-image p8"></div>
+      </div>
+    </div>
+    <section class="journey-section">
+      <div class="journey-bg">
+        <div class="journey-overlay">
+          <div class="journey-text">
+            <h1 class="journey-heading">Journey Beyond Boundaries</h1>
+            <p class="journey-subheading">
+              Discover the World's Wonders with Ease and Excitement
+            </p>
+          </div>
+          <div class="journey-form-box">
+            <form class="journey-form">
+              <h3 class="journey-contact-title">Contact us</h3>
+              <input type="text" class="journey-input" placeholder="Name" />
+              <input
+                type="email"
+                class="journey-input"
+                placeholder="E-mail Id"
+              />
+              <input type="text" class="journey-input" placeholder="Subject" />
+              <textarea
+                class="journey-textarea"
+                placeholder="Message"
+              ></textarea>
+              <label class="journey-checkbox-label">
+                <input type="checkbox" />
+                Subscribe to our newsletter
+              </label>
+              <button type="submit" class="journey-button">Send</button>
+            </form>
+          </div>
+        </div>
+      </div>
+
+      <footer class="jet-footer">
+        <div class="jet-footer-container">
+          <div class="jet-footer-col jet-footer-logo-section">
+            <img src="logo2.PNG" alt="JetSetGo Logo" class="jet-footer-logo" />
+            <p>
+              India: 1800 890 1234<br />Worldwide: +91 987 654 3210<br />
+              Email: support@jetsetgo.in
+            </p>
+            <hr />
+            <br />
+            <div class="jet-footer-social-label">Social</div>
+            <div class="jet-footer-social-icons">
+              <a href="#"><i class="fab fa-linkedin"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-facebook"></i></a>
+              <a href="#"><i class="fab fa-youtube"></i></a>
+            </div>
+          </div>
+
+          <div class="jet-footer-col">
+            <h4 class="jet-footer-heading">JetSetGo</h4>
+            <ul class="jet-footer-list">
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Investor Relations</a></li>
+              <li><a href="#">Careers</a></li>
+            </ul>
+          </div>
+
+          <div class="jet-footer-col">
+            <h4 class="jet-footer-heading">Product Offering</h4>
+            <ul class="jet-footer-list">
+              <li><a href="#">Flights</a></li>
+              <li><a href="#">Book Hotels</a></li>
+              <li><a href="#">Book Online Cabs</a></li>
+              <li><a href="#">Trip Planner</a></li>
+              <li><a href="#">Holiday Packages</a></li>
+              <li><a href="#">Bus Service</a></li>
+              <li><a href="#">Book Online Trains</a></li>
+              <li><a href="#">Adventure Sports</a></li>
+              <li><a href="#">Trip Ideas</a></li>
+            </ul>
+          </div>
+
+          <div class="jet-footer-col">
+            <h4 class="jet-footer-heading">Important Links</h4>
+            <ul class="jet-footer-list">
+              <li><a href="#">Cheap Flights</a></li>
+              <li><a href="#">Flight Status</a></li>
+              <li><a href="#">Flight Offers</a></li>
+              <li><a href="#">Train Status</a></li>
+            </ul>
+          </div>
+
+          <div class="jet-footer-col">
+            <h4 class="jet-footer-heading">Quick Links</h4>
+            <ul class="jet-footer-list">
+              <li><a href="#">Flights to Delhi</a></li>
+              <li><a href="#">Flights to Chennai</a></li>
+              <li><a href="#">Trains from Howrah</a></li>
+              <li><a href="#">Book Cabs</a></li>
+              <li><a href="#">Hotels in Ooty</a></li>
+              <li><a href="#">Indian Railways</a></li>
+              <li><a href="#">Domestic Flights</a></li>
+            </ul>
+          </div>
+        </div>
+      </footer>
+    </section>
+    <div class="jet-footer-bottom">
+      <hr class="jet-footer-separator" />
+      <div class="jet-footer-bottom-container">
+        <p class="jet-footer-bottom-left">
+          © 2024 JetSetGo Inc. All rights reserved
+        </p>
+        <div class="jet-footer-bottom-links">
+          <a href="#">Why JetSetGo?</a>
+          <a href="#">Privacy policy</a>
+          <a href="#">Terms of use</a>
+          <a href="#">Cookie policy</a>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
